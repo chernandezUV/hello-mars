@@ -1,0 +1,25 @@
+{
+  "name": "playbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js",
+    "uglify": "gulp compress"
+
+  },
+  "author": "Cesar Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hello-mars": "^1.0.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "karma": "^4.4.1",
+    "nodemon": "^2.0.2"
+  }
+}
